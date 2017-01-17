@@ -1,6 +1,7 @@
-This app is called "Notenote"
+Welcome to "Notenote". 
 
-I followed the tutorial of MacKenzie Child & picked different colors from the design. It took me about 4 hours to build the app. It was fun! 
+
+I built this app to refresh my memory & remember how to build apps using rails & ruby. It took me about 4 hours to build the app. It was fun! 
 
 If you would like to build it, you should checkout MacKenzie's youtube channel. 
 
@@ -9,7 +10,8 @@ Devise
 Haml 
 
 Notes: 
-1/The haml gem is a pain. First, I would recommend Sublime as the text editor, second, always use tab, & be careful with the tabulation. If the tabulation is wrong, you will get error message. 
+<li> The haml gem is a pain. I would recommend the use of Sublime instead of Atom. haml seems to work better with Sublime. </li>
+<li> Be careful with the tabs in your code. Make sure you have a clean code.</li>
 2/ The CSS code didn't work well for me. I had to change it a little in the banner element.  
 
 #banner {

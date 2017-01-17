@@ -1,24 +1,28 @@
-# README
+This app is called "Notenote"
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+I followed the tutorial of MacKenzie Child & picked different colors from the design. It took me about 4 hours to build the app. It was fun! 
 
-Things you may want to cover:
+If you would like to build it, you should checkout MacKenzie's youtube channel. 
 
-* Ruby version
+Gems: 
+Devise 
+Haml 
 
-* System dependencies
+Notes: 
+1/The haml gem is a pain. First, I would recommend Sublime as the text editor, second, always use tab, & be careful with the tabulation. If the tabulation is wrong, you will get error message. 
+2/ The CSS code didn't work well for me. I had to change it a little in the banner element.  
 
-* Configuration
+#banner {
+	background-image: url(image_path("welcome_banner_image.jpg"));
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+	width: 100%;
+	min-height: 500px;
+	display: table;
+	color: white;
+	text-align: center; 
 
-* Database creation
+}
 
-* Database initialization
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
